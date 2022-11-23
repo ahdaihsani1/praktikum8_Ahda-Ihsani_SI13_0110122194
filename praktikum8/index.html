@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header{
+            background-color: violet;
+            height: 100px;
+        }
+
+        .main{
+            background-color: greenyellow;
+            height: 500px;
+            display: flex;
+        }
+
+        .footer{
+            background-color: aquamarine;
+            height: 100px;
+        }
+
+        .aside{
+            background-color: bisque;
+            width: 20%;
+        }
+
+        .article{
+            background-color: beige;
+            width: 80%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        .bingkai img{
+            width: 200px;
+            margin: 1em;
+        }
+
+        .bingkai{
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            header
+        </div>
+
+        <div class="main">
+            <div class="aside">
+                aside
+            </div>
+
+            <div class="article">
+                <h3>article</h3> 
+                <div class="bingkai">
+                    <img src="foto2.jpeg" alt="">
+                    <img src="foto3.jpeg" alt="">
+                    <img src="foto4.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            footer
+        </div>
+    </div>
+</body>
+</html>
